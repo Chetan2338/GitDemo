@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Alltests1(failed)">
+    <groups>
+      <run>
+        <include name="Smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Overall.SeleniumFramework1.Error_Validation">
+        <methods>
+          <include name="ProductErrorValidation"/>
+          <include name="submitOrder"/>
+        </methods>
+      </class> <!-- Overall.SeleniumFramework1.Error_Validation -->
+    </classes>
+  </test> <!-- Alltests1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

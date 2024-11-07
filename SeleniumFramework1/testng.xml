@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+
+<include name = "Smoke"/>
+</run>
+</groups>
+
+<Listeners>
+<Listener class-name = "TestComponents.Listenerrs">
+
+</Listener>
+</Listeners>
+  <test thread-count="5" name="Alltests">
+    <classes>
+      <class name="Overall.SeleniumFramework1.Test_framework"/>
+     
+    </classes>
+  </test> <!-- Alltests -->
+  
+  <test thread-count="5" name="Alltests1">
+    <classes>
+      <class name="Overall.SeleniumFramework1.Error_Validation"/>
+     
+    </classes>
+  </test> <!-- Alltests -->
+   
+</suite> <!-- Suite -->
